@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iflytek.voicedemo"
+4    android:versionCode="13"
+5    android:versionName="2021.4.11" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:7:5-71
+11-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:7:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:8:5-67
+12-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:9:5-79
+13-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:10:5-76
+14-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:10:22-73
+15    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+15-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:11:5-79
+15-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:12:5-81
+16-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:13:5-80
+17-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:13:22-77
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:14:5-79
+18-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:14:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:15:5-81
+19-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:15:22-78
+20
+21    <application
+21-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:17:5-52:19
+22        android:name="com.iflytek.myapp.base.SpeechApp"
+22-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:18:9-39
+23        android:debuggable="true"
+24        android:icon="@drawable/bg2_round_corner"
+24-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:19:9-50
+25        android:label="烛光思政"
+25-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:20:9-29
+26        android:testOnly="true"
+27        android:theme="@android:style/Theme.Light"
+27-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:21:9-51
+28        android:usesCleartextTraffic="true" >
+28-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:22:9-44
+29        <activity android:name="com.iflytek.myapp.study.Main_Study_Activity" >
+29-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:23:9-25:20
+29-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:23:19-60
+30        </activity>
+31        <activity android:name="com.iflytek.myapp.notebook.NoteListActivity" >
+31-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:26:9-28:20
+31-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:26:19-60
+32        </activity>
+33        <activity android:name="com.iflytek.myapp.news.Main_News_Activity" >
+33-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:29:9-34:20
+33-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:29:19-58
+34            <intent-filter>
+34-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:30:13-33:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:31:17-69
+35-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:31:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:32:17-77
+37-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:32:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.iflytek.myapp.main.Main_New_Activity" >
+40-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:35:9-37:20
+40-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:35:19-57
+41        </activity>
+42        <activity android:name="com.iflytek.myapp.main.OpenActivity" >
+42-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:38:9-40:20
+42-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:38:19-52
+43        </activity>
+44        <activity android:name="com.iflytek.myapp.notebook.NoteBookActivity" />
+44-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:41:9-63
+44-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:41:19-60
+45        <activity android:name="com.iflytek.myapp.radio.RadioActivity" >
+45-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:42:9-44:20
+45-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:42:19-54
+46        </activity>
+47        <activity android:name="com.iflytek.speech.setting.IatSettings" />
+47-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:45:9-75
+47-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:45:19-72
+48        <activity android:name="com.iflytek.myapp.ebook.ReadActivity" >
+48-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:46:9-48:20
+48-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:46:19-53
+49        </activity>
+50        <activity android:name="com.iflytek.myapp.ebook.BookActivity" >
+50-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:49:9-51:20
+50-->L:\documents\workspace\android-workspace\speechDemo\src\main\AndroidManifest.xml:49:19-53
+51        </activity>
+52    </application>
+53
+54</manifest>

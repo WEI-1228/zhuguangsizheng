@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/all_top_edit"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/read_background_1"
+            android:layout="@+id/toptitle"
+            android:text="第一章"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/book_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="1949年10月1日下午2时，中国人民政治协商会议第一届全体会议选举产生的中央人民政府委员会在勤政殿举行第一次会议。中央人民政府主席毛泽东，副主席朱德、刘少奇、宋庆龄、李济深、张澜、高岗，以及周恩来等56名中央人民政府委员会委员宣布就职。会议一致决议，宣布中华人民共和国中央人民政府成立，接受《中国人民政治协商会议共同纲领》为施政方针，向各国政府宣布中华人民共和国中央人民政府为中国唯一合法政府，愿与遵守平等、互利及互相尊重领土主权原则的任何外国政府建立外交关系。会议结束后，中央人民政府主席、副主席及各位委员集体出发，乘车出中南海东门，前往天安门城楼出席开国大典。下午3时，北京30万群众齐集天安门广场，举行隆重的开国大典。毛泽东主席在天安门城楼上向全世界庄严宣告：“中华人民共和国中央人民政府今天成立了！”向世界宣告中华人民共和国中央人民政府成立。选举出中央人民政府委员会，毛泽东当选为中央人民政府主席，朱德、刘少奇、宋庆龄、李济深、张澜、高岗当选为副主席，陈毅等５６人当选为委员。１０月１日下午２时，中央人民政府委员会举行第一次会议，一致决议：接受《共同纲领》为政府施政方针，选举林伯渠为中央人民政府委员会秘书长，任命周恩来为中央人民政府政务院总理兼外交部长，毛泽东为人民革命军事委员会主席，朱德为人民解放军总司令，沈钧儒为最高人民法院院长，罗荣桓为最高人民检察署检察长。下午３时，首都３０万军民齐集天安门广场，举行隆重的开国大典。毛泽东宣读中央人民政府公告，宣告中央人民政府成立。１２月２日，中央人民政府委员会第四次会议决定１９４９年１０月１日为中华人民共和国宣告成立的日子，每年的１０月１日为中华人民共和国国庆日。"
+            android:textColor="#272727"
+            android:textSize="18sp"
+            android:typeface="normal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/newsp" />
+
+
+        <ImageView
+            android:id="@+id/study"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/studyp" />
+
+
+        <ImageView
+            android:id="@+id/read"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/readr" />
+
+
+        <ImageView
+            android:id="@+id/write"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/writep" />
+
+
+        <ImageView
+            android:id="@+id/radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/radiop" />
+
+    </LinearLayout>
+</LinearLayout>

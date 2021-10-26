@@ -1,0 +1,135 @@
+com/iflytek/ise/result/xml/XmlResultParser.java
+ com.iflytek.ise.result.xml.XmlResultParser
+com/iflytek/domain/ChannelCategory/ChannelReqInfo.java
+ com.iflytek.domain.ChannelCategory.ChannelReqInfo
+com/iflytek/domain/ChannelCategory/ChannelInfo.java
+ com.iflytek.domain.ChannelCategory.ChannelInfo
+com/iflytek/domain/adapter/News.java
+ com.iflytek.domain.adapter.News
+com/iflytek/ise/result/Result.java
+ com.iflytek.ise.result.Result
+com/iflytek/domain/adapter/Notes.java
+ com.iflytek.domain.adapter.Notes
+com/iflytek/domain/ChannelNews/PageBean.java
+ com.iflytek.domain.ChannelNews.PageBean
+com/iflytek/speech/util/FaceRect.java
+ com.iflytek.speech.util.FaceRect
+com/iflytek/domain/MyView/MyImageView.java
+ com.iflytek.domain.MyView.MyImageView
+ com.iflytek.domain.MyView.MyImageView$1
+ com.iflytek.domain.MyView.MyImageView$2
+com/iflytek/domain/ChannelNews/AllNewsBody.java
+ com.iflytek.domain.ChannelNews.AllNewsBody
+com/iflytek/ise/result/entity/Syll.java
+ com.iflytek.ise.result.entity.Syll
+com/iflytek/ise/result/ReadSentenceResult.java
+ com.iflytek.ise.result.ReadSentenceResult
+com/iflytek/speech/util/SettingTextWatcher.java
+ com.iflytek.speech.util.SettingTextWatcher
+com/iflytek/domain/ChannelNews/Content.java
+ com.iflytek.domain.ChannelNews.Content
+com/iflytek/ise/result/entity/Phone.java
+ com.iflytek.ise.result.entity.Phone
+com/iflytek/domain/ChannelNews/AllNewsReq.java
+ com.iflytek.domain.ChannelNews.AllNewsReq
+com/iflytek/speech/util/XmlParser.java
+ com.iflytek.speech.util.XmlParser
+com/iflytek/ise/result/ReadWordResult.java
+ com.iflytek.ise.result.ReadWordResult
+com/iflytek/domain/ChannelCategory/Channel.java
+ com.iflytek.domain.ChannelCategory.Channel
+com/iflytek/myapp/BuildConfig.java
+ com.iflytek.myapp.BuildConfig
+com/iflytek/ise/result/ReadSyllableResult.java
+ com.iflytek.ise.result.ReadSyllableResult
+com/iflytek/speech/util/FaceUtil.java
+ com.iflytek.speech.util.FaceUtil
+ com.iflytek.speech.util.FaceUtil$1CpuFilter
+com/iflytek/domain/adapter/NotesAdapter.java
+ com.iflytek.domain.adapter.NotesAdapter
+ com.iflytek.domain.adapter.NotesAdapter$ViewHolder
+com/iflytek/ise/result/entity/Sentence.java
+ com.iflytek.ise.result.entity.Sentence
+com/iflytek/domain/MyView/CustomVideoView.java
+ com.iflytek.domain.MyView.CustomVideoView
+com/iflytek/speech/setting/IatSettings.java
+ com.iflytek.speech.setting.IatSettings
+com/iflytek/speech/util/FucUtil.java
+ com.iflytek.speech.util.FucUtil
+com/iflytek/ise/result/util/ResultTranslateUtil.java
+ com.iflytek.ise.result.util.ResultTranslateUtil
+com/iflytek/ise/result/util/ResultFormatUtil.java
+ com.iflytek.ise.result.util.ResultFormatUtil
+com/iflytek/domain/adapter/NewsAdapter.java
+ com.iflytek.domain.adapter.NewsAdapter
+com/iflytek/myapp/base/SpeechApp.java
+ com.iflytek.myapp.base.SpeechApp
+com/iflytek/speech/util/JsonParser.java
+ com.iflytek.speech.util.JsonParser
+com/iflytek/domain/ChannelNews/NewsImages.java
+ com.iflytek.domain.ChannelNews.NewsImages
+com/iflytek/ise/result/FinalResult.java
+ com.iflytek.ise.result.FinalResult
+com/iflytek/speech/util/ParseResult.java
+ com.iflytek.speech.util.ParseResult
+com/iflytek/ise/result/entity/Word.java
+ com.iflytek.ise.result.entity.Word
+com/iflytek/domain/adapter/RadiosAdapter.java
+ com.iflytek.domain.adapter.RadiosAdapter
+ com.iflytek.domain.adapter.RadiosAdapter$ViewHolder
+com/iflytek/domain/adapter/Radios.java
+ com.iflytek.domain.adapter.Radios
+com/iflytek/myapp/base/BaseFragment.java
+ com.iflytek.myapp.base.BaseFragment
+ com.iflytek.myapp.base.BaseFragment$1
+ com.iflytek.myapp.base.BaseFragment$2
+ com.iflytek.myapp.base.BaseFragment$3
+ com.iflytek.myapp.base.BaseFragment$4
+ com.iflytek.myapp.base.BaseFragment$MyThread
+ com.iflytek.myapp.base.BaseFragment$MyThread$1
+com/iflytek/myapp/utils/StudyDatabaseHelper.java
+ com.iflytek.myapp.utils.StudyDatabaseHelper
+com/iflytek/myapp/main/OpenActivity.java
+ com.iflytek.myapp.main.OpenActivity
+ com.iflytek.myapp.main.OpenActivity$1
+ com.iflytek.myapp.main.OpenActivity$2
+com/iflytek/myapp/ebook/BookActivity.java
+ com.iflytek.myapp.ebook.BookActivity
+com/iflytek/myapp/utils/MyDatabaseHelper.java
+ com.iflytek.myapp.utils.MyDatabaseHelper
+com/iflytek/myapp/study/Fragment_Study_List.java
+ com.iflytek.myapp.study.Fragment_Study_List
+com/iflytek/myapp/news/Fragment_News_List.java
+ com.iflytek.myapp.news.Fragment_News_List
+ com.iflytek.myapp.news.Fragment_News_List$1
+ com.iflytek.myapp.news.Fragment_News_List$1$1
+ com.iflytek.myapp.news.Fragment_News_List$2
+com/iflytek/myapp/ebook/ReadActivity.java
+ com.iflytek.myapp.ebook.ReadActivity
+com/iflytek/myapp/news/Main_News_Activity.java
+ com.iflytek.myapp.news.Main_News_Activity
+ com.iflytek.myapp.news.Main_News_Activity$FragAdapter
+com/iflytek/myapp/notebook/NoteBookActivity.java
+ com.iflytek.myapp.notebook.NoteBookActivity
+com/iflytek/myapp/base/BaseActivity.java
+ com.iflytek.myapp.base.BaseActivity
+ com.iflytek.myapp.base.BaseActivity$1
+ com.iflytek.myapp.base.BaseActivity$2
+ com.iflytek.myapp.base.BaseActivity$3
+ com.iflytek.myapp.base.BaseActivity$4
+ com.iflytek.myapp.base.BaseActivity$MyThread
+ com.iflytek.myapp.base.BaseActivity$MyThread$1
+com/iflytek/myapp/radio/RadioActivity.java
+ com.iflytek.myapp.radio.RadioActivity
+ com.iflytek.myapp.radio.RadioActivity$1
+ com.iflytek.myapp.radio.RadioActivity$1$1
+com/iflytek/myapp/study/Main_Study_Activity.java
+ com.iflytek.myapp.study.Main_Study_Activity
+ com.iflytek.myapp.study.Main_Study_Activity$FragAdapter
+com/iflytek/myapp/main/Main_New_Activity.java
+ com.iflytek.myapp.main.Main_New_Activity
+ com.iflytek.myapp.main.Main_New_Activity$1
+com/iflytek/myapp/notebook/NoteListActivity.java
+ com.iflytek.myapp.notebook.NoteListActivity
+ com.iflytek.myapp.notebook.NoteListActivity$1
+ com.iflytek.myapp.notebook.NoteListActivity$1$1

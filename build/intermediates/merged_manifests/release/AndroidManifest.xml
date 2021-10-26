@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iflytek.voicedemo"
+    android:versionCode="13"
+    android:versionName="2021.4.11" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.iflytek.myapp.base.SpeechApp"
+        android:icon="@drawable/bg2_round_corner"
+        android:label="烛光思政"
+        android:theme="@android:style/Theme.Light"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.iflytek.myapp.study.Main_Study_Activity" >
+        </activity>
+        <activity android:name="com.iflytek.myapp.notebook.NoteListActivity" >
+        </activity>
+        <activity android:name="com.iflytek.myapp.news.Main_News_Activity" >
+        </activity>
+        <activity android:name="com.iflytek.myapp.main.Main_New_Activity" >
+        </activity>
+        <activity android:name="com.iflytek.myapp.main.OpenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iflytek.myapp.notebook.NoteBookActivity" />
+        <activity android:name="com.iflytek.myapp.radio.RadioActivity" >
+        </activity>
+        <activity android:name="com.iflytek.speech.setting.IatSettings" />
+        <activity android:name="com.iflytek.myapp.ebook.ReadActivity" >
+        </activity>
+        <activity android:name="com.iflytek.myapp.ebook.BookActivity" >
+        </activity>
+    </application>
+
+</manifest>

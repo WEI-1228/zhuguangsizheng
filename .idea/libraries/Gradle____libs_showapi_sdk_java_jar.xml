@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/showapi_sdk_java.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/showapi_sdk_java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
