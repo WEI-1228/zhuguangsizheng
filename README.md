@@ -13,11 +13,6 @@
 
 新闻api：[万维易源-新闻频道查询 (showapi.com)](https://www.showapi.com/apiGateway/view/109)
 
-```
-appid:554224
-appsecret:43a19f53dc9d4135974009d67d461daa
-```
-
 ![image-20210803104459419](README.assets/image-20210803104459419.png)
 
 
